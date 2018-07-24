@@ -26,7 +26,7 @@ p {
 .btn-info:focus,
 .btn-info:hover {
     background-color: rgb(26, 188, 156)!important;
-    border-color: rgb(26, 188, 156)!important;
+    border-color: #212529!important;
     color: #fff;
     text-decoration: none;
 }
@@ -45,7 +45,7 @@ p {
 .btn-primary:focus,
 .btn-primary:hover {
     background-color: rgb(26, 188, 156)!important;
-    border-color: rgb(26, 188, 156)!important;
+    border-color: #212529!important;
     color: #fff
 }
 
@@ -55,7 +55,7 @@ p {
 }
 
 .btn-success {
-    background-color: #28B463;
+    background-color: #08F136;
     border-color: rgb(26, 188, 156)
 }
 
@@ -63,7 +63,7 @@ p {
 .btn-success:focus,
 .btn-success:hover {
     background-color: rgb(26, 188, 156)!important;
-    border-color: rgb(26, 188, 156)!important;
+    border-color: #212529!important;
     color: #fff
 }
 
