@@ -14,7 +14,7 @@ p {
 }
 
 a {
-    color: rgb(26, 188, 156)6
+    color: rgb(26, 188, 156)6;
 }
 
 a:hover {
@@ -71,7 +71,7 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-    background-color: #FB8C00;
+    background-color: #E91E63;
     border-color: rgb(26, 188, 156)
 }
 
@@ -145,16 +145,17 @@ img::-moz-selection {
 #mainNav .navbar-brand #img:hover {
     width: 200px;
     height: 50px;
-    background-color: #212529;
+    background-color: #E91E63;
     border-radius: 10px;
     position: center;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    background-color: #212529;
-    border-radius: 10px;
+    background-color: #E91E63;
+    border-radius: 8px;
     font-size: 12px;
+    margin: 1px;
     color: #fff;
 }
 
