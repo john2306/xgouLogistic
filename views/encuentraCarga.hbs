@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Xgou Logistics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--ICONOS-->
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet"  type="text/css" href="stylesheets/estilos.css">
+    <link rel="stylesheet"  type="text/css" href="stylesheets/encontrarCarga.css">
+    <link  type="text/css" href="stylesheets/agency.min.css" rel="stylesheet">
+
+    <script src="javascripts/main.js"></script>
+
+    <link rel="Shortcut Icon" href="images/logos/favicon-16x16.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/logos/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="page-top">
+
+    <div class="container-fluid">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="index.html"><img id="img" src="images/brand/xgou.png" alt="Logotipo" width="120px" height="30px"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fa fa-bars"></i>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="noticias">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger active" href="encuentraCarga">Buscar Carga</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="publicaCarga">Publicar Carga</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="ingresa">Ingresar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br><br><br><br>
+
+        <!--Body-->
+        <div class="container-fluid">
+            <h3>{{tipoServicio}}</h3>
+             {{#each pedidosCarga}}
+               <div class="media border p-3 mt-2">
+                <img id="imagen" src="images/profile/perfil1.jpg" class="mr-2 mt-4 img-thumbnail " style="width:60px; ">
+                <div class="media-body ">
+                    <div class="row">
+                        <div class="col">
+                            <h6>{{nombre}} <small> Publicado {{fecha}}</small></h6>
+                        </div>
+                        <div class="col">
+                            <h6>Vence: <small>en 3 días, 3 horas y media</small></h6>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h6>Origen:<small> {{origen}}</small></h6>
+                        </div>
+                        <div class="col">
+                            <h6>Destino:<small> {{destino}}</small></h6>
+                        </div>
+                        <div class="col">
+                            <h6>Tiempo:<small> {{tiempo}}</small></h6>
+                        </div>
+                        <div class="col">
+                            <h6> Distancia:<small> {{distancia}}</small></h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h6>Tipo de servicio: <small> {{tipoServicio}}</small></h6>
+                        </div>
+                        <div class="col">
+                            <h6>Precio: <small> {{precio}}</small></h6>
+                        </div>
+                        <div class="col">
+                            <h6>Pago: <small> {{pago}}</small></h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-1">
+                            <div class="btn btn-info col">
+                                <a href="#">Detalles</a>
+                            </div>
+                        </div>
+                        <div class="col mt-1">
+                            <div class="btn btn-primary col">
+                                <a href="#">Ver mapa</a>
+                            </div>
+                        </div>
+                        <div class="col mt-1">
+                            <div class="btn btn-success col">
+                                <a href="#">POSTULAR</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+             {{/each}}
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js "></script>
+    <!-- Si utilizamos componentes de Bootstrap que requieran Javascript agregar estos tres archivos -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
