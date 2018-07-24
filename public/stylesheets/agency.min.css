@@ -71,7 +71,7 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-    background-color: rgb(9, 165, 238);
+    background-color: #F4D03F;
     border-color: rgb(26, 188, 156)
 }
 
@@ -138,7 +138,7 @@ img::-moz-selection {
     font-weight: 400;
     padding: .75em 0;
     letter-spacing: 1px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
@@ -152,7 +152,10 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: rgb(26, 188, 156)
+    background-color: #212529;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #fff;
 }
 
 @media (min-width:992px) {

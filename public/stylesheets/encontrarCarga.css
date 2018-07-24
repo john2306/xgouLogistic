@@ -1,5 +1,5 @@
 body {
-    background-color: #E74C3C;
+    background-color: rgb(47, 151, 255);
 }
 
 p {
@@ -37,7 +37,7 @@ p {
 }
 
 .btn-primary {
-    background-color: rgb(33, 126, 121);
+    background-color: #F4D03F;
     border-color: rgb(26, 188, 156)
 }
 
