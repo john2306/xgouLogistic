@@ -71,7 +71,7 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-    background-color: #F4D03F;
+    background-color: #FB8C00;
     border-color: rgb(26, 188, 156)
 }
 
@@ -138,7 +138,7 @@ img::-moz-selection {
     font-weight: 400;
     padding: .75em 0;
     letter-spacing: 1px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
